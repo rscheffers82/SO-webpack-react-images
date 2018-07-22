@@ -36,15 +36,15 @@ const config = {
           }
         }]
       }, 
-      {
-        test : /\.(png|jp(e*)g|svg)$/,
-        use : {
-          loader: "file-loader",
-          options: {
-            name: "images/[name].[hash].[ext]"
-          }
-        }
-      }
+      // {
+      //   test : /\.(png|jp(e*)g|svg)$/,
+      //   use : {
+      //     loader: "file-loader",
+      //     options: {
+      //       name: "images/[name].[hash].[ext]"
+      //     }
+      //   }
+      // }
     ]
   },
   resolve: {
